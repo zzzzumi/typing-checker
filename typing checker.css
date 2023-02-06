@@ -1,0 +1,116 @@
+body{
+  background-color: #323437;
+    font-family: 'Consolas','DIN Alternate',sans-serif;
+}
+
+.title{
+  color: white;
+}
+
+.SerectWord{
+  color: white;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+#three,#six{
+  color: orange;
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+#time{
+  color: orange;
+  font-weight: 600;
+  font-size: 2vw;
+  margin-top: 70px;
+}
+
+#main{
+  margin-left:auto;
+  margin-right:auto;
+  width: 70vw;
+}
+
+#word{
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+#rome{
+  word-wrap: break-word;
+  margin-top: 50px;
+  color: gray;
+  font-size: 2vw;
+
+  font-weight: 600;
+  line-height: 4vw;
+  letter-spacing: 0.3vw;
+}
+
+.Score{
+  margin-top: 20px;
+}
+
+.speed{
+  float: left;
+  width: 23vw;
+  
+}
+
+.kpm{
+  color: white;
+  font-weight: 600;
+}
+
+#kpmScore{
+  margin-top: 10px;
+  color: orange;
+  font-size: 10vw;
+  font-weight: 600;
+  height: 5vw;
+}
+
+.miss{
+  float: left;
+  width: 23vw;
+  
+}
+
+.misstype{
+  color: white;
+  font-weight: 600;
+}
+
+#MissType{
+  margin-top: 10px;
+  color: orange;
+  font-size: 10vw;
+  font-weight: 600;
+  height: 5vw;
+}
+
+.Accuracy{
+  float: left;
+  width: 24vw;
+}
+
+.acc{
+  color: white;
+  font-weight: 600;
+}
+
+#accScore{
+  margin-top: 10px;
+  color: orange;
+  font-size: 10vw;
+  font-weight: 600;
+  height: 5vw;
+}
+
+#restart{
+  color: white;
+  font-weight: 600;
+  font-size: 2vw;
+}
