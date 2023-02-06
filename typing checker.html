@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>タイピングチェッカー</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div id="title">
+      <h class="title"></h>      
+    </div>
+    
+    <div id="timer">
+      <div id="serectTime">
+        <p class="SerectWord">SelectTime</p>
+        <a href="#" id="three" onclick="SetTime(30)">30s</a>
+        <a href="#" id="six" onclick="SetTime(60)">60s</a>        
+      </div>
+    </div>
+  <div id="main">  
+      <p id="time">30</p>    
+
+      <div id="word"></div>
+
+      <div id="rome"></div>      
+    
+    <div class="Score">
+      <div class="speed">
+        <p class="kpm">Keystrokes Per Minute</p>
+        <p id="kpmScore"></p>
+      </div>
+      
+      <div class="miss">
+        <p class="misstype">MissType</p>
+        <p id="MissType"></p>
+      </div>
+
+      <div class="Accuracy">
+        <p class="acc">Accuracy</p>
+        <p id="accScore"></p>
+      </div>
+    </div>
+    <a href="" id="restart"></a>
+  </div>
+    
+<script type="text/javascript" src="script.js"></script>
+  </body>
+  
+</html>
